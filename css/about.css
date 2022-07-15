@@ -9,7 +9,7 @@ header{
     background-color: aqua;
     height: 100px;
 }
-    
+
 .logo{
     width:20%;
     height: 100%;
@@ -59,7 +59,7 @@ header{
     width:60%;
     background-color: darkgoldenrod;
     float: left;
-    
+
 }
 
 .right{
@@ -89,12 +89,12 @@ header{
     width:50%;
     background-color: darkorchid;
     height: 100%;
-    
-    
-    
+
+
+
 }
 
-    
+
 .middle_right{
     width: 50%;
     background-color: firebrick;
@@ -109,4 +109,4 @@ footer{
     font-size: 30px;
     color: white;
 
-}
+} 
