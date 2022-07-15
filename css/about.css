@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+
+header{
+    background-color: aqua;
+    height: 100px;
+}
+    
+.logo{
+    width:20%;
+    height: 100%;
+    background-color: coral;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    float:left;
+}
+
+
+.menu{
+    width:80%;
+    height: 100%;
+    background-color: cyan;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    float:right;
+}
+
+
+.bar_one{
+    height: 100px;
+   background-color:chartreuse ;
+   color: white;
+   font-size: 30px;
+   text-align: center;
+
+}
+
+
+.article{
+    overflow: hidden;
+}
+
+.left{
+    height: 500px;
+    width:20%;
+    background-color: cadetblue;
+    float: left;
+
+}
+
+.center{
+    height: 500px;
+    width:60%;
+    background-color: darkgoldenrod;
+    float: left;
+    
+}
+
+.right{
+    height: 500px;
+    width:20%;
+    background-color: burlywood;
+    float: left;
+}
+
+.center_top{
+    height: 25%;
+    background-color: lightsalmon;
+}
+
+.center_middle{
+    height: 50%;
+    background-color: cornflowerblue;
+    overflow: hidden;
+}
+
+.center_bottm{
+    width:25%;
+    background-color: darkgoldenrod;
+}
+
+.middle_left{
+    width:50%;
+    background-color: darkorchid;
+    height: 100%;
+    
+    
+    
+}
+
+    
+.middle_right{
+    width: 50%;
+    background-color: firebrick;
+    height: 100%;
+}
+
+
+footer{
+    height: 100px;
+    background-color: violet;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+
+}

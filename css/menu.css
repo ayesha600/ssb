@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    height: 50px;
+    background-color: cornflowerblue;
+    font-size: 20px;
+    font-family: arial;
+    color:black;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    border:3px solid blue;
+}
+.path{
+    overflow: hidden;
+}
+.path_one{
+    height: 50px;
+    background-color: #FCDCFC;
+    font-size: 20px;
+    font-family: arial;
+    color:black;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    border:3px solid#FC34CC;
+}
+ .docktop{
+    overflow: hidden;
+ }
+.docktop_one{
+    height: 50px;
+    background-color: #FCFCCC;
+    font-size: 20px;
+    font-family: arial;
+    color:black;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    border:3px solid#FCCC04;;
+}
+
+.article{
+    overflow: hidden;
+}
+
+
+.left{
+    height: 300px;
+    width:61%;
+    background-color: #B4B4B4;
+    font-size: 20px;
+    font-family: arial;
+    color:black;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 22px;
+    border:3px solid#040404;
+    float: left;
+    
+
+}
+
+
+.right{
+    height: 300px;
+    width:30%;
+    background-color: #CCFC9C;
+    float: right;
+    font-size: 20px;
+    font-family: arial;
+    color:black;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    border:3px solid #049C04;
+   
+
+    
+}
+
+.footer{
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    background-color: #FCCC9C;
+    border:3px solid #FC6404;
+}
