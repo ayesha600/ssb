@@ -1,276 +1,208 @@
-/*font-family: 'Playfair Display', serif;
- font-family: 'Ubuntu', sans-serif;
+/*font-family: 'Lato', sans-serif;
+
 */
+
 *{
     margin:0;
-    padding: 0;
+    padding:0;
+}
+
+h1, h2 ,h3, h4, h5, h6, p, ul{
+    margin:0;
+    padding:0;
 }
 
 header{
-    width: 90%;
+    background: #f6f9f9;
+}
+
+.header_content{
+    width: 80%;
     margin: auto;
-    overflow: hidden;
-    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
 }
 
 .logo{
-    float: left;
     width: 20%;
 }
 
+
+
 nav{
     width: 50%;
-    float: right;
-    overflow: hidden;
 }
 
 nav ul{
     list-style: none;
-    float: right;
-    overflow: hidden;
+    display: flex;
+    justify-content: end;
 }
 
 nav ul li{
-    float: left;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 nav ul li a{
     text-decoration: none;
-    font-size: 16px;
-    color: #626262;
     text-transform: uppercase;
-    font-family: 'Playfair Display', serif;
-}
+    color: #2d3950;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}   
 
 .banner{
-    width: 90%;
-    margin: auto;
+    background: url(../images/banner.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
-.banner img{
-
-width: 100%;
-
-margin-top: 30px;
-}
-
-
-.photodiary{
-    width: 80%;
-    margin: auto;
-    margin-top: 70px;
-    margin-bottom: 70px;
-}
-
-.photodiary h1{
-    color: #626262;
-    font-size: 30px;
-    margin-bottom: 20px;
-    font-family: 'Playfair Display', serif;
-}
-
-.photodiary h5{
-    color: #b4ad9e;
-    font-size: 14px;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.photodiary p{
-    color: #626262;
-    font-size: 14px;
-    margin-bottom: 30px;
-    font-family: 'Playfair Display', serif;
-}
-
-.photodiary h6{
-    color: #b4ad9e;
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.lifestyle{
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-    margin: 70px auto 50px auto;
-}
-
-.lifestyle_one{
-    width: 47%;
-    float: left;
-}
-
-.lifestyle img{
-    width: 100%;
-}
-
-.lifestyle_one h5{
-    font-size: 14px;
-    color: #b4ad9e;
-    text-transform: uppercase;
-    margin: 20px 0px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-
-
-.lifestyle_one p{
-    color: #626262;
-    font-size: 14px;
-    margin-bottom: 30px;
-    font-family: 'Playfair Display', serif;
-}
-
-.lifestyle_two{
-    width: 47%;
-    float: right;
-}
-
-.lifestyle_two img{
-    width: 100%;
-}
-
-.lifestyle_two h5{
-    font-size: 14px;
-    color: #b4ad9e;
-    text-transform: uppercase;
-    margin: 20px 0px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.lifestyle_one h1{
-    color: #626262;
-    font-size: 30px;
-    margin-bottom: 20px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 100;
-}
-
-.lifestyle_two p{
-    color: #626262;
-    font-size: 14px;
-    margin-bottom: 30px;
-    font-family: 'Playfair Display', serif;
-}
-
-.lifestyle_two h1{ 
-    color: #626262;
-    font-size: 30px;
-    margin-bottom: 20px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 100;
-
-}
-
-
-.signup{
-    background: #f0f0f0;
-    padding: 100px 0px;
-}
-
-.newsletter{
-    width: 371px;
-    margin: auto;
-}
-
-.newsletter h1{
-    font-size: 30px;
-    color: #333333;
-    margin-bottom: 70px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 500;
-    
-}
-
-.newsletter input{
-    border: none;
-    background: transparent;
-    width: 100%;
-    border-bottom: 1px solid black;
-    font-family: 'Playfair Display', serif;
-    font-size: 14px;
-    padding-bottom: 4px;
-}
-
-.newsletter input:focus{
-    outline:none;
-}
-
-.newsletter input::placeholder{
-    font-family: 'Playfair Display', serif;
-    color:#333333;
-}
-
-.btn{
-    padding: 100px 0px;
+.banner_content{
     text-align: center;
 }
 
-.btn button{
+.banner_content h1{
+    font-size: 100px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.banner_content span{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #15a4fa;
+}
+
+.banner_content p{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.banner_content button{
     background: transparent;
+    color: #fff;
     border: none;
-    border: 1px solid #626262;
-    padding: 10px 20px;
+    border: 2px solid #15a4fa;
+    font-size: 16px;
+    padding: 10px 24px;
+    border-radius: 3px;
+    transition: .4s all ease-in-out;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.banner_content button:hover{
+    background-color: #15a4fa;
+}
+
+.icons{
+    position: absolute;
+    left: 50%;
+    bottom: 100px;
+    transform: translate(-50%, 0px);
+    color: #fff;
     font-size: 20px;
+    animation: updown .4s linear infinite;
+    animation-direction: alternate;
 }
 
-footer{
-    background: #f0f0f0;
-    padding: 30px;
+@keyframes updown {
+    0%{
+        bottom: 100px;  
+    }
+
+    100%{
+       bottom: 115px;
+    }
 }
 
-.footer_contet{
+.simple{
+    background: #f6f9f9;
+    padding: 50px 0px;
+   
+}
+
+.simple_content{
     width: 80%;
     margin: auto;
-    overflow: hidden;
+    text-align: center;
 }
 
-.terms{width: 30%;float: left;}
-
-.terms ul{
-    list-style: none;
-    /* float: left; */
-    overflow: hidden;
+.simple_content h1{
+    font-size: 40px;
+    color: #2d3950;
+    margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
-.terms ul li{
-    float: left;
+.simple_content p{
+    font-size: 18px;
+    color: #999999;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
-.terms ul li a{
-    text-decoration: none;
-    font-size: 14px;
-    color: #000000;
-    margin-left: 20px;
-    text-transform: uppercase;
+.feature{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
 }
 
-.social_icons{
+.feature_items{
     width: 30%;
-    float: right;
-    overflow: hidden;
+    text-align: center;
 }
 
-.social_icons ul{
-    list-style: none;
-    float: right;
-    overflow: hidden;
+.feature_items h2{
+    font-size: 20px;
+    color: #2d3950;
+    font-family: 'Lato', sans-serif;
 }
 
-.social_icons ul li{
-    /* float: left; */
-    float: left;
-    margin-left: 15px;
+.feature_items p{
+    font-size: 16px;
+    color: #999999;
+    font-family: 'Lato', sans-serif;
 }
 
-.social_icons ul li a{
-    text-decoration: none;
-    font-size: 14px;
-    color: #000000;
-    text-transform: uppercase;
+.feature_icons{
+    width: 80px;
+    height: 80px;
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+1,48baff+50,5fc3ff+51,48baff+100 */
+background: #48baff; /* Old browsers */
+background: -moz-linear-gradient(left,  #48baff 1%, #48baff 50%, #5fc3ff 51%, #48baff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #48baff 1%,#48baff 50%,#5fc3ff 51%,#48baff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #48baff 1%,#48baff 50%,#5fc3ff 51%,#48baff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#48baff',GradientType=1 ); /* IE6-9 */
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #fff;
+    margin: auto;
+    margin-bottom: 20px;
 }
+
+
+
+
