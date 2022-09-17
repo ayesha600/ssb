@@ -563,4 +563,28 @@ font-weight: 400;
   background: #EA4C88;
   color: #fff;
 }
+.company_para{}
+.company_para p{
+  color: #83a7a5;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.input_section{
+  position: relative;
+}
+.input_section input{
+  border: 1px solid #efefef;
+  color: #83a7a5;
+  font-size: 14px;
+  padding: 8px 35px;
+  background: #efefef;
+}
 
+.form_icons{
+  position: absolute;
+  right: 26px;
+  top: 3px;
+  font-size: 24px;
+  color: #6fb048;
+}
+.form_icons i{}
