@@ -1,0 +1,94 @@
+@media(max-width:575px){
+    .nav-item{
+        margin-bottom: 5px;
+        padding:0;
+    }
+    .nav-item .nav-link {
+        display: inline-block;
+}
+   .navbar-nav{
+    text-align: center;
+    padding: 20px 100px;
+    background: #20202082;
+    border-radius: 20px;
+    display: inline-block;
+   } 
+   .navbar-collapse{
+    text-align: center;
+   }
+   .content{
+    text-align: center;
+   }
+   header h4{
+    margin-bottom: 40px;
+   }
+   .content h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+   }
+   .content p{
+    font-size: 16px;
+    margin-bottom: 40px;
+   }
+   .btn_download{
+    padding:8px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+   .btn_view{
+    padding:8px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+   .phone img {
+    width: 250px;
+    margin-top: 30px;
+  }
+  .header_row{
+    flex-direction: column-reverse;
+  }
+  .height {
+    min-height: 75vh;
+  }
+  .text_one h2 {
+    font-size: 25px;
+  }
+  .button_section {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .customize {
+    margin-top: 71px;
+    margin-bottom: 20px;
+  }
+  .feature_img {
+    margin-top: 15px;
+  }
+  .contact_section {
+        
+    padding-bottom: 380px;
+}
+.customize span{
+  margin:auto;
+}
+.customize p{
+  margin-top: 10px;
+}
+.customize{
+  text-align: center;
+}
+.phone_two {
+  width: 350px;
+  margin: auto;
+}
+.customize_row{
+  flex-direction: column-reverse;
+}
+.customize {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.contact_section {
+  padding-bottom: 420px;
+}
+}
